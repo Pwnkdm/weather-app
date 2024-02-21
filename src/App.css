@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background: url("/public/backgrounImg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 65%;
+  height: 80vh;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.73);
+}
+
+.footer-info {
+  color: white;
+}
+.footer-info a {
+  color: floralwhite;
+  font-weight: bold;
+}
+
+/*-- Responsive Code --*/
+
+@media screen and (max-width: 1920px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 853px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 966px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .container {
+    width: 95%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .container {
+    margin-bottom: 20px;
+  }
+}
+
+/*-- Responsive Code --*/

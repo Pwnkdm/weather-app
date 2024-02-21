@@ -1,0 +1,253 @@
+.city{
+        width: 60%;
+        height: 100%;
+        float: left;
+        background: url("/public/mzr.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        min-height: 500px;
+        position: relative;
+        background-position-x: -30px;
+}
+
+.title {
+  float: right;
+  font-family: "Oxygen", sans-serif;
+  padding: 30px 30px 0 0;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #eee;
+  margin-top: 0px;
+  text-align: right;
+}
+
+.mb-icon {
+  height: 100%;
+  top: 20% !important;
+  display: block !important;
+  position: absolute;
+  top: 34%;
+  left: 36%;
+  z-index: 1;
+  display: none;
+}
+.mb-icon p {
+  color: white;
+  width: fit-content;
+  position: relative;
+  left: 24%;
+  top: 2%;
+  font-size: 25px;
+}
+
+.date-time {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 90%;
+  padding: 0 30px 10px 30px;
+  font-family: "Oxygen", sans-serif;
+}
+
+.dmy {
+  float: left;
+  text-align: left;
+  position: absolute;
+}
+
+div#txt {
+  font-size: 35px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.current-time {
+  font-size: 35px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.current-date {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.temperature {
+  width: 50%;
+  float: right;
+  position: relative;
+  left: 20px;
+}
+
+.temperature p {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0 60px;
+}
+
+.temperature p span {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+/* responsive code  */
+@media screen and (max-width: 1580px) {
+  .date-time{
+    padding-bottom: 50px;
+  }
+  .dmy {
+    padding-top: 10px;
+  }
+  div#txt {
+    font-size: 30px;
+  }
+  .temperature p {
+    font-size: 60px;
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .date-time{
+    padding-bottom: 50px;
+  }
+  .dmy {
+    padding-top: 25px;
+  }
+  .temperature p {
+    font-size: 60px;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dmy {
+    padding-top: 25px;
+  }
+  .temperature p {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .dmy {
+    padding-top: 10px;
+  }
+  div#txt {
+    font-size: 30px;
+  }
+  .temperature p {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .dmy {
+    padding-top: 17px;
+  }
+  div#txt {
+    font-size: 25px;
+  }
+  .temperature p {
+    padding-bottom: 10px;
+    margin: 0 10px;
+    font-size: 30px;
+  }
+  .temperature p span {
+    font-size: 30px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 603px) {
+  h1 {
+    font-size: 35px;
+  }
+  .city {
+    width: 100%;
+    min-height: 300px;
+  }
+  .dmy {
+    padding-top: 35px;
+  }
+  .temperature {
+    text-align: right;
+  }
+  .temperature p {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  .city {
+    min-height: 450px;
+  }
+  .title h2 {
+    font-size: 25px;
+  }
+  .title h3 {
+    font-size: 14px;
+  }
+  .date-time {
+    width: 100%;
+    padding: 0;
+  }
+  .dmy {
+    padding: 0;
+    margin-bottom: 35px;
+    text-align: center;
+    width: 100%;
+  }
+  div#txt {
+    font-size: 30px;
+  }
+  .temperature {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .temperature > p {
+    font-size: 60px;
+    padding-bottom: 15px !important;
+    position: relative;
+    top: -100px;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 26px;
+    line-height: 1.5em;
+    letter-spacing: 0;
+  }
+  .city {
+    min-height: 315px;
+  }
+  .dmy {
+    margin-bottom: 30px;
+  }
+  .temperature p {
+    padding-bottom: 15px;
+  }
+}
+
